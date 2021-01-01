@@ -24,7 +24,7 @@ $(document).ready(function() {
     }
 
     setTimeout(function() {
-        loadGrammar("robotpuisi");
+        loadGrammar("scifi");
 
     }, 10);
 
