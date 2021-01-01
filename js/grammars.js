@@ -6,7 +6,7 @@ var grammars = {
 	
 	
 	
-    neverbar : {
+    robotpuisi : {
 	"origin": ["#s# #p# #o# #k#","#s# #q# #p# #o# #k#", "#q# #s# yang #p# #o# #k#", "#bagai# #s# yang #p# #o#, #origin#", "#kadang# #s# #p# #o#", "#s#, #hewan#, #angkasa# -- semua #p# #o#. #origin#","apakah #s# #p# #o#?", "#o# #k# #bagai# #angkasa# #p# #o#", "#oh#, #o# #k# milik #s#","#hewan# #waktu# #bagai# #o# #k#", "#p#, #p#, #p# #s#, #oh#!", "#s# #p# #s#","#o# #p# #o#", "#origin#; #origin#", "#origin#; #origin#, #origin#","#s# #bagai# #o#", "#origin#!", "#origin#! #origin#"],
        "kadang" : ["kadang", "jarang terjadi,", "terkadang,", "kecil kemungkinan", "suatu saat nanti", "ketika #angkasa# menjadi biru", "saat #hewan# baru bisa terbang", "saat #angkasa# sentuh dunia", "ketika #waktu# terbalik","tersirat", "kelulu"],
         "bagai" :["bagai","seperti", "ibarat", "mirip dengan","seakan-akan", "serupa", "sama saja"],
