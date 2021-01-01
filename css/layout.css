@@ -1,12 +1,12 @@
 #container {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 #content {
 	margin: 40px;
 	float: center;
-	width: 480px;
+	width: 100%;
 }
 
 .outputSample {
@@ -18,7 +18,7 @@
 #content {
 	margin: 40px;
 	float: center;
-	width: 480px;
+	width: 100%;
 }
 
 #output {
