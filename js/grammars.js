@@ -171,47 +171,23 @@ punctutation: [",", ":", " ", "!", ".", "?"],
         "origin" : "<h3>#greetings#, and welcome to the #place#</h3><p>Schedule:</p><p>#projectDesc#<p>#projectDesc#<p>#projectDesc#"
     },
 
+	
     scifi : {
-
-        firstSyl : "B C D F G H J K L M N P Qu R S T V W X Y Z St Fl Bl Pr Kr Ll Chr Sk Br Sth Ch Dhr Dr Sl Sc Sh Thl Thr Pl Fr Phr Phl Wh".split(" "),
-        middleSyl : "an all ar art air aean af av ant app ab er en eor eon ent enth irt ian ion iont ill il ipp in is it ik ob ov orb oon ion uk uf un ull urk estr antr okl ackl".split(" "),
-        lastSyl : "a ia ea u y en am is on an o io i el ios ax ox ix ex izz ius ian ean ekang anth".split(" "),
-
-        butchName : ["Chesty", "Manley", "Brock", "Stone", "Brick", "Butch", "Bruce", "Steel", "Saber", "Tex", "Rock", "Drake", "Ace", "Knute", "Wolf", "Thorax", "Brad", "Abs", "Burt", "Slate", "Bret", "Duke"],
-
-        alienName : ["#firstSyl##middleSyl##lastSyl#", "#firstSyl##lastSyl#", "#firstSyl##lastSyl#-#firstSyl##lastSyl#"],
-
-        sexy : ["muscled", "sexy", "dark", "well-dressed", "masculine", "dramatic", "dramatically lit", "boyish", "burly", "handsome", "erotic", "many-bossomed", "supple", "nude"],
-        occupation : ["lumberjack", "firefighter", "scientist", "spy", "wizard", "radio broadcaster", "smuggler", "mechanic", "astronaut", "adventurer", "pirate", "cowboy", "vampire", "detective", "soldier", "marine", "doctor", "ninja", "waitress", "burlesque dancer", "ballerina", "opera singer", "gogo dancer", "rollerskater"],
-
-        physicsParticle : ["quark", "photon", "lepton", "muon"],
-        scienceVerb : ["evaporate", "decay", "phase-shift", "teleport", "destabilize", "sublimate"],
-        scienceBlargleStart : ["holo", "hyper", "transmuto", "digi", "nano", "electro", "transma", "magna"],
-
-        communicationDevice : ["#physicsParticle#-transmitter", "#scienceBlargleStart#phone", "#scienceBlargleStart#pager", "#scienceBlargleStart#beeper", "#scienceBlargleStart#view", "#scienceBlargleStart#scope", "#scienceBlargleStart#cam"],
-
-        shortTime : ["in a sec", "right now", "two clicks", "a moment's time", "the blink of an eye", "no time at all", "the time it takes a single unstable #physicsParticle# to #scienceVerb#", "#firstSyl##middleSyl#sday"],
-        conversationally : ["expressively", "noncommitally", "with relief", "dispassionately"],
-        mcResponded : ["'That was unexpected,' #mc# said.", "#mc# shrugged #conversationally#", "#mc# sighed #conversationally#"],
-
-        transitPlain : ["bus", "plane", "jet", "tram", "rail", "tube", "beam"],
-        transitMod : ["nonstop", "express", "commuter", "prismatic", "red-eye", "pneumatic", "crosstown"],
-        transportSystem : ["#scienceBlargleStart##transitPlain#", "#transitMod# #scienceBlargleStart# #transitPlain#"],
-        travelPlot : ["#mc# punched '#mcDestinationSystem#' into the #communicationDevice#. There was still one ticket left on the #transportSystem#, but he'd have to take a #transportSystem# the rest of the way to Planet #mcDestination#.'"],
-
-        vipTitle : ["Vice President", "Mr.", "Detective", "Senator", "Chairman", "Princess", "Lord", "Lady", "Professor", "Grand Inquisistor", "High Priest", "President"],
-        boss : ["#vipTitle# #alienName#"],
-
-        artFormBasic : ["novel", "sculpture", "film", "painting", "poem", "play"],
-        artForm : ["prisma#artFormBasic#", "holo#artFormBasic#", "photo#artFormBasic#", "hyper#artFormBasic#"],
-        artDemand : ["'Your #mcArt# is late, #mc#', shrieked #mcBoss# over the #communicationDevice#.", "'I need that #mcArt# by #shortTime#' yelled #mcBoss#.", "'Where's the #mcArt#, #mc#? You promised it'd be finished by last #firstSyl##middleSyl#sday,' #mcBoss#'s voice came through the #communicationDevice#."],
-        artQuest : ["The only thing that could really, I mean really, inspire a #mcArt# would be the famously #sexy# #occupation.s# of Planet #mcDestination# and for that, he'd have to go to the #mcDestinationSystem# system. #travelPlot#"],
-        artPlot : ["#artDemand#  'Yeah, I'll have it done in #shortTime#', #mc# promised, hanging up the #communicationDevice#. #mcResponded#.#[mcDestination:#alienName#][mcDestinationSystem:#alienName#]artQuest#"],
-
-        plot : ["#[mcArt:#artForm#][mcBoss:#boss#]artPlot#"],
-
-        origin : ["#[mc:#butchName#]plot#"]
-
-    },
+	"origin": ["#s# #p# #o# #k#","#s# #q# #p# #o# #k#", "#q# #s# yang #p# #o# #k#", "#bagai# #s# yang #p# #o#, #origin#", "#kadang# #s# #p# #o#", "#s#, #hewan#, #angkasa# -- semua #p# #o#. #origin#","apakah #s# #p# #o#?", "#o# #k# #bagai# #angkasa# #p# #o#", "#oh#, #o# #k# milik #s#","#hewan# #waktu# #bagai# #o# #k#", "#p#, #p#, #p# #s#, #oh#!", "#s# #p# #s#","#o# #p# #o#", "#origin#; #origin#", "#origin#; #origin#, #origin#","#s# #bagai# #o#", "#origin#!", "#origin#! #origin#"],
+       "kadang" : ["kadang", "jarang terjadi,", "terkadang,", "kecil kemungkinan", "suatu saat nanti", "ketika #angkasa# menjadi biru", "saat #hewan# baru bisa terbang", "saat #angkasa# sentuh dunia", "ketika #waktu# terbalik","tersirat", "kelulu"],
+        "bagai" :["bagai","seperti", "ibarat", "mirip dengan","seakan-akan", "serupa", "sama saja"],
+	"s" : ["aku", "dia", "mereka", "kami", "dikau","engkau", "diriku","kamu","dirimu", "cintaku","seekor #hewan#", "malaikat #angkasa#","seekor #hewan# malang", "seekor #hewan# jalang", "sang #hewan#", "mentari", "#angkasa# #waktu#", "amtenar", "tahi angin", "gerimis", "kereta angin", "manusia","pujangga","penulis","seseorang","seorang #orang#", "sang #orang#", "ibu muda", "ibu #hewan#", "#angkasa#ku", "#angkasa#mu", "pencinta", "penguasa", "sang guru" , "ratu #angkasa#", "robot penyair","ksatria", "cintamu", "#waktu# hidupku","pemimpin","raja","ratu","jenderal","mantan jendral","pinokio","kalong","katak"],
+	"p" : ["memakan", "memikirkan tentang", "mengena","mencari", "mencari kian kemari","kejar", "percaya", "mengidamkan", "mengharapkan", "mendoakan", "percaya", "menuliskan", "melukiskan","mengikuti" , "mengacan", "mengharapkan", "terkalang lidah", "selindung,", "menggerus","membalut","membentuk", "membuang", "menyinari", "mencuri", "mengetahui", "mempelajari", "gelontorkan", "mempermainkan", "mengurangi hormatnya","mengharap", "menggelinjang", "berjalan antara", "membisikkan","mengutuk", "memotong", "mencegah","dipenjara","diikat","dibunuh","menemukan", "menyembunyikan", "dipermainkan", "disembunyikan","mempermainkan","menyembunyikan", "mengikuti", "menemui", "melakukan transaksi", "membandingkan", "menutup fakta","menghasut", "menyalakan api", "menguras", "menyentuh","melebihi", "memutus","terhenyuk", "terpatri", "menusuk","ditusuk","melenguhi", "menampih", "menerbangkan", "melempar", "menghadang", "membantai", "menaruh", "menghantarkan", "merapuhkan","ucapkan", "bisiki", "memukul","pukul", "berpeluk", "memancarkan", "memangku", "memanggil", "mengalungkan", "termaktubkan", "mengentalkan", "mengenal", "bergelut", "semburkan", "memerdu", "mengecup", "menengadahi", "membelah", "membangun", "membentak", "meriak","mengalunkan","menudungkan", "menjengkau", "memimpikan", "saling buru", "mengimpikan", "menghangatkan", "menyelimuti","mendengar", "percaya", "siapkan", "raihkan", "raupkan", "raihlah-raupkan", "meradangi","menghindar dari","bingungkan", "menelan", "telankan", "memutari", "memamah", "melingkari", "mencerna", "mainkan", "mengunyah", "mengutuki"],
+      "o" : ["cinta","kemanusiaan","misteri", "katak kata","lembayung rindu", "batu", "gradasi cemas", "lukisan","papan catur","metafora", "metafora liar", "bidak-bidak", "pemainan", "orang-orang", "kebahagiaan","keajaiban","air mata","benci", "kereta angin", "simfoni", "risau hati","kemuliaan","panorama","permadani","kemuliaan", "rasa khawatir","ledak-ledakan","dunia sebelah", "kedahsyatan dunia","kemampuan diri","kepercayaan", "akhir baik cerita","akhir cinta","jiwa dan nyawa","kendaraan jiwa","permainan takdir","takdir","kebaikan", "sentuhan #angkasa#", "kekuatan #angkasa#","udara", "ayat kehidupan", "langkah", "tuntunan", "rasa haus", "suara #waktu#", "suara #angkasa", "cahaya #angkasa#", "repetisi", "pelajaran", "ombak","karang", "kalbu", "keagungan", "lembaran cinta", "embun", "emosi", "nadir", "candi","hujan", "dendang", "ksatria", "abu","bahagia", "hati", "impian","kehadiran", "kaligrafi", "asap","durjana", "duka", "komputasi", "sinar #angkasa#", "bisik #angkasa#", "pedih peri","perih", "kehidupan seribu tahun", "peluru panas", "sedu sedan", "luka", "luka hati", "cemara", "angin", "dedahan", "dahan", "kekalahan", "tingkap", "laut terang","laut", "komputasi awan", "ajal", "perasaan", "tengah malam buta", "muka penuh luka", "angin merdu", "pelangi", "senda", "sendu", "lagu", "gerbang", "darah mengalir", "dunia", "tenaga", "enersi", "sajak putih", "do'a", "rakit", "putaran", "batu", "bayangan", "sarang", "batas", "abjad", "angan", "dendam", "kesia-siaan", "debu tanah", "ketulusan", "sunyi", "sepotong lagu", "kenangan", "buku", "halaman buku", "kata", "tanda", "kata dan tanda", "seluruh halaman buku hati", "istana", "istana hati", "permainan", "jarum besi", "jarum", "keramaian", "hitam pekat", "tempurung raksasa", "diri", "ketegangan", "kampung", "gunung", "ikatan", "interaksi", "langkah limbung", "kota tunas cahaya", "waktu", "efek kuantum", "relativitas waktu","cahya kami","anak putri langit", "anak putri #angkasa#", "vanili pengkhianatan", "jemari lembut awan", "bisik kekasih","kosakata","#o#nya", "#o#ku", "#o#mu"],
+    "k" : ["yang semu", "begitu terabaikan", "tak berdosa", "tanpa akhir","yang tak berarti", "yang didengar dari pujangga","di dunia ini", "dalam tempurung bahasa", "dalam tempurung", "yang meraja", "walau hanya sesaat","menghindari benci dan sesat", "tanpa menutup mata", "dengan sadar", "dengan pilu", "tanpa harapan", "yang indah","yang kekal", "tanpa nyawa", "terbahana", "selindung","tanpa tujuan", "dengan darah manusia","yang kembali terbakar", "terbuang percuma","tertutup nista","menembus asa","yang hanya hina dina", "yang hanya dipunyai #s#", "yang tak dicinta","yang sendiri","yang tertutup bala","maya", "yang tuna aksara", "yang tertutup matanya", "yang bisu karena #angkasa#", "di #tempat#", "lalu mati", "kemudian pergi","tertutup lara","dengan sia-sia", "dengan pelbagai cara", "tanpa tepi", "dengan iman", "dalam hening", "terlanjur tergores", "tak mengubah apapun", "yang ditumpahkan","tak berujung", "terus menerus", "untuk satu jiwa", "terasing", "tidak terucapkan", "bukan dasar perhitungan", "masa lalu", "merapuh", "menginspirasi", "di air yang tenang", "di air mendayu","di perasaan penghabisan", "sembari melaju", "mendayu", "sembari lalu", "penghabisan", "membatu", "secuil", "berkat kemenangan cinta", "yang mau putus asa", "sejenak", "seketika", "yang meradang parah"],
+    "hewan" : ["ular", "kucing hutan", "rajawali", "babi", "elang","lembu suci","kelomang","kumbang","babi hutan", "babirusa","kera", "kupu-kupu","serangga","nuri","lebah", "capung", "protozoa", "rubah", "rusa", "kancil","mitokondria",  "amoeba", "bakteria", "hewan", "capung", "binatang", "serigala","tardigrade", "belalang", "walang"],
+     "angkasa" : ["bulan", "mentari", "langit", "hujan meteor", "bintang", "awan", "mega-mendung", "awan hujan", "gerhana", "awan mendung", "langit putih", "langit biru", "langit hitam", "nebula","surga", "rembulan", "purnama bulan", "zamrud angkasa", "rubi angkasa", "matahari","bintang jatuh","angkasa","purnama", "kabut putih", "kabut berpendar", "pelita langit", "pelita cakrawala", "cakrawala #waktu#", "mars", "venus", "jupiter", "merkurius", "uranus", "neptunus", "galaksi", "mendung #waktu#", "lubang hitam", "asteroid"],
+     "orang" :["wanita", "perempuan lain", "kekasih", "lelaki", "ibunda", "Kurawa", "Srikandi", "pujanggawati","teman","sahabat", "dewi", "insan surgawi", "malaikat", "pendengar setia","sahabat-sahabat", "kawan", "gadis"],
+     "oh" : ["waduh", "oh", "hmm", "baiklah", "luar biasa", "dahsyat", "ironis", "menakjubkan", "sembilu", "celaka", "sial", "terkutuk"],
+     "waktu" : ["malam","pagi","kemarin","esok","siang", "senja", "petang"],
+      "tempat" : ["#angkasa#", "dunia","dalam tanah","kantor", "kebun", "dalam api", "dalam lautan", "dalam simulasi pikiran", "dalam komputasi awan", "luar kenyataan", "dasar samudera", "lintas dunia", "dekat khatulistiwa", "jauh di pulau", "dalam pangkuan"],
+       "ytm" : ["ya", "tidak", "mungkin"],
+       "q" : ["bukan", "memang",  "hanya"]
+},
 
 }
