@@ -23,3 +23,4 @@ var grammars = {
        "ytm" : ["ya", "tidak", "mungkin"],
        "q" : ["bukan", "memang",  "hanya"]
 }
+}
